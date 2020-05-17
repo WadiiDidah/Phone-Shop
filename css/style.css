@@ -1,0 +1,170 @@
+* {box-sizing: border-box;}
+.flex{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+body { 
+  margin: 0;
+  font-family:roboto,Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding:0 12px;
+  text-align:center;
+  
+}
+header>div>h1{
+  font-size:3em;
+  font-weight:bold;
+}
+
+
+
+.nav{
+  background-color:#45a1ff;
+  color:white;
+  width:300px;
+  margin:12px;
+  font-size: 18px; 
+  line-height: 40px;
+  border-radius: 4px;
+  
+}
+
+.nav>ul>li{
+  list-style:none;
+  
+}
+.nav>ul>li>a{
+text-decoration:none;
+}
+.nav>ul>li>a:visited{
+  color:white;
+}
+.conteneur{
+  justify-content:flex-start;
+  
+}
+.contenue{
+  width:auto;
+  max-width:1000px;
+  margin:12px;
+  border-radius:4px;
+  justify-content:space-around;
+  background-color: white;
+  padding:0;
+  
+}
+.commerce{
+  background:url("../img/commerce.jpg");
+  background-size:cover;
+  max-width:1000px;
+  height:500px;
+  font-size:2em;
+  text-align:center;
+  padding:0px;
+  color:white;
+ 
+}
+.commerce>div{
+  width:100%;
+  padding:32px;
+  height:100%;
+  background-color:rgba(0,0,0,0.3);
+   
+    
+}
+
+
+
+.contenue>h1{
+  display:block;
+  width:100%;
+  font-size:1.8em;
+}
+  
+
+.card{
+  border:1px solid #45a1ff;
+  width:280px;
+  border-radius:4px;
+  margin-bottom:32px;
+}
+.card>.img{
+  height:300px;
+  padding:0;
+  margin:0;
+  background-color:white;
+}
+.card>div>img{
+  max-height:100%;
+  max-width:100%;
+  margin:auto;
+  
+}
+.card>.icones{
+  justify-content:flex-end;
+  padding:4px;
+  margin:0;
+  background-color:white;
+}
+.card>.icones button{
+  margin-left:4px;
+ border-radius:4px;
+  
+  
+}
+.card>.icones button:hover{
+  background-color:#45a1ff;
+  color:white
+}
+.card>.underline{
+  border-bottom:1px solid grey;
+}
+.card>div{
+  justify-content:space-between;
+  margin-top:12px;
+}
+
+/* Formulaire */
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    background-color: #45a1ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a1ff;
+  }
+  
+  div {
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 12px;
+  }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}

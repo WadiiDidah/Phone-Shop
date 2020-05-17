@@ -1,0 +1,6 @@
+Huwai y7|400|img/huawei-y7.jpg|Huawei|
+Iphone11|300|img/iphone11.jpg|Apple|
+Samsung s20|250|img/Samsung s20.png|Samsung|
+samsung a50|199.99|img/samsung a50.png|Samsung|
+Iphone8|300|img/iphone8.jpg|Apple|
+Huwai p30|400|img/huwaeip30.png|Huawei|
